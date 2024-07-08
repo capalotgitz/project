@@ -81,24 +81,24 @@ else{
   </div>
 </header>
     <div class="col s12 z-depth-4 card-panel">
-      <form method="post" action="routers/router.php" class="login-form" id="form">
+      <form method="post" action="" class="login-form" id="form">
         <div class="row">
           <div class="input-field col s12 center">
-            <p class="center login-form-text">Login for Food Ordering System</p>
+            <p class="center login-form-text">Login to Order</p>
           </div>
         </div>
         <div class="row margin">
           <div class="input-field col s12">
             <i class="mdi-social-person-outline prefix"></i>
-            <input name="username" id="username" type="text">
-            <label for="username" class="center-align">Username (admin or user1)</label>
+            <input name="username" id="username" type="text" placeholder="Enter your Username">
+            <label for="username" class="center-align">Username</label>
           </div>
         </div>
         <div class="row margin">
           <div class="input-field col s12">
             <i class="mdi-action-lock-outline prefix"></i>
-            <input name="password" id="password" type="password">
-            <label for="password">Password (Demopass@123)</label>
+            <input name="password" id="password" type="password" placeholder="Enter Password">
+            <label for="password">Password</label>
           </div>
         </div>
         <div class="row">
