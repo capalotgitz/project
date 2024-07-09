@@ -6,9 +6,8 @@ if(isset($_SESSION['admin_sid']) || isset($_SESSION['customer_sid']))
 }
 else{
 ?>
-<!DOCTYPE html>
-<html lang="en">
 
+<html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
@@ -67,11 +66,11 @@ else{
             <div id="fixed-collapse-navbar" class="navbar-collapse collapse navbar-right">
               <ul class="nav navbar-nav">
                 <li>
-                   <a href="../index.html">Home</a>
+                   <a href="../index.php">Home</a>
                 </li>
-                <li><a href="../food.html">Our Food</a></li>
-                <li><a href="../about.html">About</a></li>
-                <li><a href="../faq.html">FAQ</a></li>
+                <li><a href="../food.php">Our Food</a></li>
+                <li><a href="../about.php">About</a></li>
+                <li><a href="../faq.php">FAQ</a></li>
               </ul>
             </div>
          </nav>
