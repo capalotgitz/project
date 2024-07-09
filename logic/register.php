@@ -131,7 +131,7 @@ else{
         <div class="row margin">
           <div class="input-field col s12">
             <i class="mdi-social-person-outline prefix"></i>
-            <input name="username" id="username" type="text"  placeholder="Enter your Username">
+            <input name="username" id="username" type="text" required ="true"  placeholder="Enter your Username">
             <label for="username">Username</label>
 			<div class="errorTxt1"></div>			
           </div>
@@ -139,7 +139,7 @@ else{
         <div class="row margin">
           <div class="input-field col s12">
             <i class="mdi-social-person prefix"></i>
-            <input name="name" id="name" type="text" placeholder="Enter your Name">
+            <input name="name" id="name" type="text" required="true" placeholder="Enter your Name">
             <label for="name">Name</label>
 		
         </div>
@@ -161,7 +161,7 @@ else{
         </div>		
         <div class="row">
           <div class="input-field col s12">
-			<a href="javascript:void(0);" onclick="document.getElementById('formValidate').submit();" class="btn waves-effect waves-light col s12">Login</a>
+			<a href="javascript:void(0);" onclick="document.getElementById('formValidate').submit();" class="btn waves-effect waves-light col s12">Register</a>
           </div>
           <div class="input-field col s12">
             <p class="margin center medium-small sign-up">Already have an account? <a href="login.php">Login</a></p>

@@ -90,14 +90,14 @@ else{
         <div class="row margin">
           <div class="input-field col s12">
             <i class="mdi-social-person-outline prefix"></i>
-            <input name="username" id="username" type="text" placeholder="Enter your Username">
+            <input name="username" id="username" type="text"  placeholder="Enter your Username" required>
             <label for="username" class="center-align">Username</label>
           </div>
         </div>
         <div class="row margin">
           <div class="input-field col s12">
             <i class="mdi-action-lock-outline prefix"></i>
-            <input name="password" id="password" type="password" placeholder="Enter Password">
+            <input name="password" id="password" type="password" placeholder="Enter Password" required>
             <label for="password">Password</label>
           </div>
         </div>
